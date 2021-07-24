@@ -10,6 +10,7 @@ use App\Models\Destino;
 use App\Models\EstadoPedido;
 use App\Models\EstadoTransaccion;
 use App\Models\Imagen;
+use App\Models\Empresa;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -30,5 +31,6 @@ class DatabaseSeeder extends Seeder
         Cliente::factory(20)->create();
         Destino::factory(20)->create();
         Imagen::factory(20)->create();
+        Empresa::factory(1)->create();
     }
 }
