@@ -25,7 +25,7 @@ class ImagenFactory extends Factory
         return [
             //
             'id_producto' => $this->faker->randomElement(['1','1','2']),
-            'url' => $this->faker->imageUrl(1280,720),
+            'url' => $this->faker->imageUrl(1280,1280),
             'activo' => $this->faker->randomElement(['1','1','1'])
         ];
     }

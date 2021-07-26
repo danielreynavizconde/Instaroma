@@ -24,7 +24,6 @@ class ProductoFactory extends Factory
     {
         $nombre=$this->faker->name();
         return [
-            //
             'sku' => $this->faker->randomElement(['1','2','3']),
             'nombre' => $nombre,
             'slug' => Str::slug($nombre, '-'),
@@ -35,6 +34,7 @@ class ProductoFactory extends Factory
             'imagen' => $this->faker->imageUrl(1280,1280),
             'iva' => $this->faker->randomElement(['18','18','18']),
             'stock' => $this->faker->randomElement(['12','30','32']),
+            'filtro' => $this->faker->randomElement(['1','2','3']),
             'activo' => $this->faker->randomElement(['1','1','1'])
         ];
     }

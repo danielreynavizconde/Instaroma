@@ -26,6 +26,7 @@ class CreateProductoTable extends Migration
             $table->string('imagen');
             $table->string('iva');
             $table->string('stock')->nullable();
+            $table->string('filtro')->nullable();
             $table->string('activo');
             $table->timestamps();//created_at update_at
         });

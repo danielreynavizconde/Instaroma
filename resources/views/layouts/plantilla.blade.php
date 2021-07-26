@@ -255,7 +255,7 @@
 			$('#handleCounter3').handleCounter({maximize: 100})
         })
         function valChanged(d) {
-//            console.log(d)
+            //  console.log(d)
         }
     </script>
     <!-- *********** Whatsapp *********** -->
