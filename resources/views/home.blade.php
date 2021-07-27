@@ -34,7 +34,7 @@
                 <div class="latest-product">
                     <h2 class="section-title"><b style="color: red">Últimas tendencias</b></h2>
                     <div class="product-carousel">
-                        @foreach ($productos as $producto)
+                        @foreach ($productosTendencias as $producto)
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="{{$producto->imagen}}" alt="">
@@ -64,7 +64,7 @@
                 <div class="latest-product">
                     <h2 class="section-title"><b style="color: red">Productos destacados</b></h2>
                     <div class="product-carousel">
-                        @foreach ($productos as $producto)
+                        @foreach ($productosDestacados as $producto)
                         <div class="single-product">
                             <div class="product-f-image">
                                 <img src="{{$producto->imagen}}" alt="">
