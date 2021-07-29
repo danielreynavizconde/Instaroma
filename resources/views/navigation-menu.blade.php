@@ -18,6 +18,18 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('productos')">
                         Productos
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('productos')">
+                        Categorias
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('productos')">
+                        Talleres
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('productos')">
+                        Mensajes
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('productos')">
+                        Datos Generales
+                    </x-jet-nav-link>
                 </div>
             </div>
 

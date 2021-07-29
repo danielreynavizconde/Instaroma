@@ -834,12 +834,13 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
     padding: 10px;
 }
 input[type="submit"], button[type=submit] {
+    width: 100%;
+    margin: 10px 0px;
     background: none repeat scroll 0 0 red;
     border: medium none;
     color: #fff;
     padding: 11px 20px;
     float: left;
-    margin-left: 10px;
 }
 input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
 .single-sidebar input[type="text"] {
@@ -927,6 +928,7 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
 }
 .handle-counter{
     float: left;
+    width: 100%;
 }
 .counter-minus{
     background: red !important;
@@ -957,7 +959,6 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
 .quantity {
     float: left;
     width: 100%;
-    margin-right: 15px;
     padding: 10px 0px;
 }
 .quantity input[type="number"] {

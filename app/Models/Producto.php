@@ -10,4 +10,9 @@ class Producto extends Model
     use HasFactory;
 
     protected $table = "producto";
+
+    //Relación uno a muchos(inversa)
+    public function categoria(){
+        return $this->belongs('App\Models\Categoria');
+    }
 }

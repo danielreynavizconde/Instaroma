@@ -15,8 +15,11 @@ class CreateImagenTable extends Migration
     {
         Schema::create('imagen', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('id_producto');
-            $table->foreign('id_producto')->references('id')->on('producto');
+            $table->unsignedBigInteger('producto_id')->nullable();
+            $table->foreign('producto_id')
+                ->references('id')
+                ->on('producto')
+                ->onDelete('set null');
             $table->string('url');
             $table->string('activo');
             $table->timestamps();//created_at update_at

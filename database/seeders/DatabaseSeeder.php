@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         Slider::factory(5)->create();
         EstadoPedido::factory(3)->create();
         EstadoTransaccion::factory(3)->create();
-        Categoria::factory(2)->create();
+        Categoria::factory(4)->create();
         Producto::factory(50)->create();
         Cliente::factory(20)->create();
         Destino::factory(20)->create();

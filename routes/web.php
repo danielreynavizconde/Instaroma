@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\CartController;
 
+use App\Http\Livewire\ShowProductos;
+
 
 //Muestra Ruta de la pagina Home
 Route::get('/', HomeController::class)->name('home');

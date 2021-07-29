@@ -24,7 +24,7 @@
                     <h2><i class="fa fa-map-marker"></i>Local Trujillo</h2>
                     <p>Zela 311, 2do nivel. Trujillo</p>
                     <h2><i class="fa fa-phone "></i>Telefono</h2>
-                    <p>945 160 000</p>
+                    <p>(51) 945 160 000</p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">

@@ -14,7 +14,7 @@ class ProductosController extends Controller
     }
     //Muestra detalle de producto
     public function show($id){
-        $producto = Producto::find($id)->join('categoria', 'categoria.id', '=', 'producto.id_categoria')->select('producto.id_categoria', 'categoria.nombre')->get()->where('activo', '1');
+        $producto = Producto::find($id);
         return view('Productos.show', compact('producto'));
     }
 }

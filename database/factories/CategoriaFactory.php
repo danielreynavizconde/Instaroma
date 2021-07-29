@@ -22,7 +22,7 @@ class CategoriaFactory extends Factory
      */
     public function definition()
     {
-        $nombre=$this->faker->randomElement(['Insumos','Jabones']);
+        $nombre=$this->faker->name();
         return [
             'nombre' => $nombre,
             'slug' => Str::slug($nombre, '-'),

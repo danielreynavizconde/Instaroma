@@ -18,14 +18,14 @@
 <div class="single-product-area">
     <div class="zigzag-bottom"></div>
     <div class="container">
-        <div class="row">
-            
+        <div class="row">            
             <div class="col-md-3 col-sm-6 col-lg-12">
                 <div class="taller">
                     <img src="{{asset('images/taller.png')}}" alt="">
                     <h2>Taller de jabones por SolTv</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Todos los viernes a las 2:00 p.m. te invitamos a vernos en Como en Casa donde dictamos 1 hora de clases didácticas por solTV, donde te enseñamos el proceso
+                        de creación de los jabones artesanales en base de queratina y colorisantes naturales.</p>
+                    <p>¡Te esperamos!</p>
                 </div>
             </div>
         </div>

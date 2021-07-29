@@ -10,4 +10,9 @@ class Categoria extends Model
     use HasFactory;
 
     protected $table = "categoria";
+
+    //Relacion uno a muchos
+    public function productos(){
+        return $this->hasMany('App\Models\Producto');
+    }
 }

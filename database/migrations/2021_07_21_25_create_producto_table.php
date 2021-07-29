@@ -21,8 +21,11 @@ class CreateProductoTable extends Migration
             $table->text('descripcion');
             $table->string('precio_actual');
             $table->string('precio_anterior');
-            $table->unsignedBigInteger('id_categoria');
-            $table->foreign('id_categoria')->references('id')->on('categoria');
+            $table->unsignedBigInteger('categoria_id')->nullable();
+            $table->foreign('categoria_id')
+                ->references('id')
+                ->on('categoria')
+                ->onDelete('set null');
             $table->string('imagen');
             $table->string('iva');
             $table->string('stock')->nullable();
