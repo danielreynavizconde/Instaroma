@@ -15,13 +15,14 @@ class CreateOrdenDetalleTable extends Migration
     {
         Schema::create('ordenDetalle', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('id_orden');
-            $table->foreign('id_orden')->references('id')->on('ordenes');
-            $table->unsignedBigInteger('id_producto');
-            $table->foreign('id_producto')->references('id')->on('producto');
+            $table->unsignedBigInteger('orden_id');
+            $table->foreign('orden_id')->references('id')->on('ordenes');
+            $table->unsignedBigInteger('producto_id');
+            $table->foreign('producto_id')->references('id')->on('producto');
             $table->unsignedBigInteger('precio');
             $table->unsignedBigInteger('cantidad');
             $table->unsignedBigInteger('total');
+            
             $table->timestamps();//created_at update_at
         });
     }
