@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Producto;
+use App\Models\Categoria;
 use Illuminate\Http\Request;
 
 class ProductosController extends Controller
@@ -16,5 +17,10 @@ class ProductosController extends Controller
     public function show($id){
         $producto = Producto::find($id);
         return view('Productos.show', compact('producto'));
+    }
+
+    //muestra productos por categoria
+    public function categoria(Categoria $categoria){
+        return $categoria;
     }
 }

@@ -80,7 +80,7 @@
                                         <!--<li><a href="#"><i class="fa fa-heart"></i> Favoritos</a></li>
                                         <li><a href="cart.html"><i class="fa fa-user"></i> Mi Carrito</a></li>
                                         <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>-->
-                                        <li><a href="{{route('dashboard')}}"><i class="fa fa-user"></i> Iniciar Sesión / Registrate</a></li>
+                                        <li><a href="{{route('admin.home')}}"><i class="fa fa-user"></i> Iniciar Sesión / Registrate</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                     <a href="{{route('home')}}" style="float: left;"><img class="logo" style="height: 50px;margin:13px 5px;" src="{{asset('images/instaroma-logo.jpg')}}"></a>
                                 </div>
                             </div>
-
+                            <!--
                             <div class="col-sm-6">
                                 <div class="shopping-item">
                                     <a href=""><i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
@@ -125,7 +125,7 @@
                                 <div class="shopping-item">
                                     <a href="{{route('dashboard')}}"><i class="fa fa-truck"></i></a>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div> <!-- End site branding area -->

@@ -11,7 +11,9 @@ class Imagen extends Model
 
     protected $table = "imagen";
 
+    //relacion uno a muchos inversa
     public function producto(){
-        return $this->belongs('App\Models\Producto');
+        return $this->belongsTo('App\Models\Producto');
     }
+    
 }

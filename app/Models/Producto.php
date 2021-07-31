@@ -15,4 +15,8 @@ class Producto extends Model
     public function categoria(){
         return $this->belongs('App\Models\Categoria');
     }
+    //Relacion uno a muchos
+    public function imagenes(){
+        return $this->hasMany('App\Models\Imagen');
+    }
 }
