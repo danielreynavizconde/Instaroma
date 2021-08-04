@@ -52,7 +52,7 @@
                                     <div class="product-inner-price">
                                         <ins>S/.<span name="precio">{{$producto->precio_actual}}</span></ins> <del>S/.{{$producto->precio_anterior}}</del>
                                     </div>
-                                    <div class="quantity">
+                                    <div class="quantity row">
                                         <div class="handle-counter col col-sm-5" id="handleCounter">
                                             <span class="counter-minus btn btn-primary">-</span>
                                             <input class="cantidad" name="cantidad" type="text" value="3">

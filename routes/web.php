@@ -46,6 +46,4 @@ Route::get('talleres', function(){
     return view('talleres');
 })->name('talleres');
 
-Route::get('contacto', function(){
-    return view('contacto');
-})->name('contacto');
+Route::get('contactanos',[ContactanosController::class, 'index'])->name('contactanos.index');

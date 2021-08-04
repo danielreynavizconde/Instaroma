@@ -269,7 +269,11 @@ return [
             'route'  => 'admin.mensajes.index',
             'icon' => 'fas fa-comment-alt',
         ],
-        
+        [
+            'text' => 'Sliders',
+            'route'  => 'admin.sliders.index',
+            'icon' => 'fas fa-cog',
+        ],
         [
             'text' => 'Ajustes',
             'route'  => 'admin.ajustes.index',

@@ -33,14 +33,14 @@
             <div class="col-md-12">
                 <div class="latest-product">
                     <h2 class="section-title"><b style="color: red">Últimas tendencias</b></h2>
-                    <div class="product-carousel">
+                    <div class="product-carousel" class="display-flex">
                         @foreach ($productosTendencias as $producto)
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="{{$producto->imagen}}" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Añadir</a>
-                                        <a href="{{route('productos.show', $producto->id)}}" class="view-details-link"><i class="fa fa-link"></i> Ver detalles</a>
+                                        <a href="{{route('productos.show', $producto->id)}}" class="view-details-link">Ver detalles</a>
                                     </div>
                                 </div>
                                 <h2><a href="{{route('productos.show', $producto->id)}}">{{$producto->nombre}}</a></h2>
@@ -70,7 +70,7 @@
                                 <img src="{{$producto->imagen}}" alt="">
                                 <div class="product-hover">
                                     <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Añadir</a>
-                                    <a href="{{route('productos.show', $producto->id)}}" class="view-details-link"><i class="fa fa-link"></i> Ver detalles</a>
+                                    <a href="{{route('productos.show', $producto->id)}}" class="view-details-link">Ver detalles</a>
                                 </div>
                             </div>
 

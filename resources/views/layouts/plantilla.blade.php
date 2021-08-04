@@ -34,7 +34,6 @@
           document.head.appendChild(t);
         });
       </script>
-
     <style>
         *{
         padding: 0px;
@@ -46,7 +45,6 @@
             width: 100%;
             background: red;
         }
-
     </style>
 </head>
 <body>
@@ -65,7 +63,7 @@
                 <a href="{{route('home')}}">Inicio</a>
                 <a href="{{route('productos.index')}}">Productos</a>
                 <a href="{{route('talleres')}}">Talleres</a>
-                <a href="{{route('contacto')}}">Contacto</a>
+                <a href="{{route('contactanos.index')}}">Contacto</a>
             </nav>
         </div>
         <!--<button class="menu-button" id="open-button">Open Menu</button>-->
@@ -84,7 +82,6 @@
                                     </ul>
                                 </div>
                             </div>
-
                             <div class="col-md-4">
                                 <div class="header-right">
                                     <ul class="list-unstyled list-inline">
@@ -95,7 +92,6 @@
                                                 <!--<li><a href="#">USD</a></li>-->
                                             </ul>
                                         </li>
-
                                         <li class="dropdown dropdown-small">
                                             <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">Lenguaje: </span><span class="value">Español </span><b class="caret"></b></a>
                                             <ul class="dropdown-menu">
@@ -109,7 +105,7 @@
                         </div>
                     </div>
                 </div> <!-- End header area -->
-                <div class="site-branding-area" style="border-bottom: 5px solid red;">
+                <div class="site-branding-area" style="border-bottom: 5px solid red; background:#fff;">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6"><button class="menu-button" id="open-button" style="float: left;">Open Menu</button>
@@ -129,11 +125,7 @@
                         </div>
                     </div>
                 </div> <!-- End site branding area -->
-
-
-
 @yield('content')
-
                 <div class="footer-top-area">
                     <!--<div class="zigzag-bottom"></div>-->
                     <div class="container">
@@ -153,7 +145,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-6">
                                 <div class="footer-menu">
                                     <h2 class="footer-wid-title">Atención al cliente</h2>
@@ -166,7 +157,6 @@
                                     </ul>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-6">
                                 <div class="footer-menu">
                                     <h2 class="footer-wid-title">Categorias</h2>
@@ -192,7 +182,6 @@
                         </div>
                     </div>
                 </div> <!-- End footer top area -->
-
                 <div class="footer-bottom-area">
                     <div class="container">
                         <div class="row">
@@ -201,7 +190,6 @@
                                     <p>&copy; 2021 Instaroma. Todos los derechos reservados. <!--<a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a>--></p>
                                 </div>
                             </div>
-
                             <div class="col-md-4">
                                 <div class="footer-card-icon">
                                     <i class="fa fa-cc-discover"></i>
@@ -213,18 +201,13 @@
                         </div>
                     </div>
                 </div> <!-- End footer bottom area -->
-
-
             </div>
         </div><!-- /content-wrap -->
     </div><!-- /container -->
-
 <!-- Latest jQuery form server -->
 <script src="https://code.jquery.com/jquery.min.js"></script>
-
 <!-- Bootstrap JS form CDN -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/jquery.sticky.js')}}"></script>
@@ -265,6 +248,5 @@
     <a href="https://m.me/InstAroma" target="blank" class="facebookbuttom" style="text-decoration: none;">
         <i class="fa fa-facebook"></i>
     </a>
-
 </body>
 </html>

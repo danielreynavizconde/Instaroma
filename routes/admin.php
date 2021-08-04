@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\CategoriaController;
 use App\Http\Controllers\Admin\ProductoController;
 use App\Http\Controllers\Admin\MensajeController;
 use App\Http\Controllers\Admin\AjusteController;
+use App\Http\Controllers\Admin\SliderController;
 
 use App\Http\Controllers\Admin\HomeController;
 
@@ -17,3 +18,6 @@ Route::resource('productos', ProductoController::class)->names('admin.productos'
 Route::resource('mensajes', MensajeController::class)->names('admin.mensajes');
 
 Route::resource('ajustes', AjusteController::class)->names('admin.ajustes');
+
+Route::resource('sliders', SliderController::class)->names('admin.sliders');
+

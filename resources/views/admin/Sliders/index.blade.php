@@ -9,7 +9,7 @@
 @section('content')
 <div class="card">
         <div class="card-header">
-            <a class="btn btn-primary" href="{{route('admin.categorias.create')}}">Crear</a>
+            <a class="btn btn-primary" href="{{route('admin.sliders.create')}}">Crear</a>
         </div>
         <div class="card-body">
             <table class="table table-striped">
@@ -22,16 +22,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($productos as $producto) 
+                    @foreach($sliders as $slider) 
                         <tr>
-                            <td>{{$producto->id}}</td>
-                            <td>{{$producto->url}}</td>
-                            <td>{{$producto->activo}}</td>                            
-                            <td width="10px"><a class="btn btn-info" href="{{route('admin.productos.edit',$producto)}}">Ver</a></td>
-                            <td width="10px"><a class="btn btn-primary" href="{{route('admin.productos.edit',$producto)}}">Editar</a></td>
+                            <td>{{$slider->id}}</td>
+                            <td>{{$slider->url}}</td>
+                            <td>{{$slider->activo}}</td>                            
+                            <td width="10px"><a class="btn btn-info" href="{{route('admin.sliders.edit',$slider)}}">Ver</a></td>
+                            <td width="10px"><a class="btn btn-primary" href="{{route('admin.sliders.edit',$slider)}}">Editar</a></td>
                             
                             <td width="10px">
-                                <form action="{{route('admin.productos.destroy',$producto)}}" method="post">
+                                <form action="{{route('admin.sliders.destroy',$slider)}}" method="post">
                                 @csrf    
                                 @method('delete')
                                 <button type="submit" class="btn btn-danger">Eliminar</button>
