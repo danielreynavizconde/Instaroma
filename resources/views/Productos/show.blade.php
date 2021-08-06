@@ -2,23 +2,10 @@
 @section('title', $producto->nombre . ' - Instaroma')
 
 @section('content')
-<div class="product-big-title-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="product-bit-title text-center">
-                    <h2>Detalle</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="single-product-area">
     <div class="zigzag-bottom"></div>
     <div class="container">
-        <div class="row">
-            
+        <div class="row">            
             <div class="col-md-12">
                 <div class="product-content-right">
                     <div class="product-breadcroumb">
@@ -32,7 +19,6 @@
                                 <div class="product-main-img">
                                     <img src="{{$producto->imagen}}" alt="">
                                 </div>
-
                                 <div class="product-gallery">
                                     <img src="{{$producto->imagen}}" alt="">
                                     <img src="{{$producto->imagen}}" alt="">
@@ -53,12 +39,14 @@
                                         <ins>S/.<span name="precio">{{$producto->precio_actual}}</span></ins> <del>S/.{{$producto->precio_anterior}}</del>
                                     </div>
                                     <div class="quantity row">
-                                        <div class="handle-counter col col-sm-5" id="handleCounter">
+                                        <div class="handle-counter col col-xs-12 col-sm-12 col-md-6 col-lg-6" id="handleCounter">
                                             <span class="counter-minus btn btn-primary">-</span>
                                             <input class="cantidad" name="cantidad" type="text" value="3">
                                             <span class="counter-plus btn btn-primary">+</span>
-                                        </div>
-                                        <div class="col col-sm-7 p-0">
+                                        </div>                                      
+                                    </div>
+                                    <div class="quantity row">                                        
+                                        <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                             <input type="submit" class="add_to_cart_button" value="Añadir al carrito">
                                         </div>                                        
                                     </div>

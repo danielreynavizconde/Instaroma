@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div> <!-- End header area -->
-                <div class="site-branding-area" style="border-bottom: 5px solid red; background:#fff;">
+                <div class="site-branding-area" style="border-bottom: .0625rem solid #eaeaea; background:#fff;">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6"><button class="menu-button" id="open-button" style="float: left;">Open Menu</button>
@@ -113,7 +113,7 @@
                                     <a href="{{route('home')}}" style="float: left;"><img class="logo" style="height: 50px;margin:13px 5px;" src="{{asset('images/instaroma-logo.jpg')}}"></a>
                                 </div>
                             </div>
-                            <!--
+                            
                             <div class="col-sm-6">
                                 <div class="shopping-item">
                                     <a href=""><i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
@@ -121,7 +121,7 @@
                                 <div class="shopping-item">
                                     <a href="{{route('dashboard')}}"><i class="fa fa-truck"></i></a>
                                 </div>
-                            </div>-->
+                            </div>
                         </div>
                     </div>
                 </div> <!-- End site branding area -->

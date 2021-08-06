@@ -9,7 +9,7 @@
             <ul class="" id="bxslider-home4">
                 @foreach ($sliders as $slider)
                     <li>
-                        <img src="{{$slider->url}}" alt="Slide 1">
+                        <img src="{{$slider->url}}" alt="Slide instaroma">
                         <!--
                         <div class="caption-group">
                             <h2 class="caption title">
