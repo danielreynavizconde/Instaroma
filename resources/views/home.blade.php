@@ -45,7 +45,7 @@
                                 </div>
                                 <h2><a href="{{route('productos.show', $producto->id)}}">{{$producto->nombre}}</a></h2>
                                 <div class="product-carousel-price">
-                                    <ins>S/.{{$producto->precio_actual}}</ins> <del>S/.{{$producto->precio_anterior}}</del>
+                                    <ins>S/.{{$producto->precio_actual}}</ins> <del style="color:#b4b4b4">S/.{{$producto->precio_anterior}}</del>
                                 </div>
                             </div>
                         @endforeach
@@ -77,7 +77,7 @@
                             <h2><a href="{{route('productos.show', $producto->id)}}">{{$producto->nombre}}</a></h2>
 
                             <div class="product-carousel-price">
-                                <ins>S/.{{$producto->precio_actual}}</ins> <del>S/.{{$producto->precio_anterior}}</del>
+                                <ins>S/.{{$producto->precio_actual}}</ins> <del style="color:#b4b4b4">S/.{{$producto->precio_anterior}}</del>
                             </div>
                         </div>
                         @endforeach
